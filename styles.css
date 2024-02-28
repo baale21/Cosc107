@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh ;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding: 0 8%;
+    position: relative;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+.content {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.content p {
+    font-size: 35px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.content h1 span {
+    color: steelblue;
+}
+
+.content button {
+    background: transparent;
+    border: 2px solid steelblue;
+    padding: 12px 25px;
+    color: black;
+    cursor: pointer;
+    margin-top: 30px;
+    outline: none;
+}
+
+.giveaway-time {
+    display: flex;
+    border: 2px;
+}
+
+.giveaway-time div {
+    flex-basis: 100px;
+}
+
+.giveaway-time div p {
+    font-size: 60px;
+    margin-bottom: 14px;
+}
+
+.car {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    right: 13%;
+    bottom: 13%;
+}
+
+.box{
+    background-color: steelblue;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.box span {
+    font-size: 20px;
+}
+
+.box p {
+    margin: 0;
+}
+@media(max-width :1000px){
+    car {
+        width: 100%;
+        height: auto;
+        margin-top: 9cm;
+        
+    }
+}
